@@ -10,8 +10,6 @@ class PersistentCounter {
         }
     }
 
-    int postIncrement() { return counter++; }
-
     ~PersistentCounter() {
         std::ofstream file(filename);
 
@@ -19,6 +17,8 @@ class PersistentCounter {
             file << counter << std::endl;
         }
     }
+
+    int postIncrement() { return counter++; }
 
   private:
     std::string filename;

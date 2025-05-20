@@ -1,0 +1,4 @@
+AllowShortIfStatementsOnASingleLine: true
+AlignAfterOpenBracket: BlockIndent
+IndentWidth: 4
+BreakStringLiterals: false

@@ -1,0 +1,8 @@
+COFFEE TABLE NTH
+The papers on the table seemed to have multiplied. The contents have become unrecognizable.
+
+[CHOICES]
+- [RETURN] Return to the living room.
+
+[ACTIONS]
+- [RETURN] /LIVING ROOM

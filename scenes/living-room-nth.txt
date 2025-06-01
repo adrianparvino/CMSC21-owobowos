@@ -1,0 +1,20 @@
+LIVING ROOM NTH
+You find yourself in the living room. The walls still decorated by framed portraits of people and places, the shelves still lined with haphazardly stacked newspapers, the coffee table’s top still messy with knicknacks. The entryway and oddly plain door are where you left them but the same cannot be said for the rest of the room. More and more patches have been overtaken by snippets of scenes beyond this house.
+
+What do you do?
+
+[CHOICES]
+- [FRAMES] - Further examine the frames hanging on the walls.
+- [SHELVES] - Sift through the newspapers on the shelves
+- [COFFEE TABLE] - Approach the coffee table,
+- [ENTRYWAY] - Enter the room the entryway reveals.
+- [DOOR] -  Open the oddly simple door
+- [KITCHEN] - Go to the kitchen
+
+[ACTIONS]
+- [FRAMES] /FRAMES
+- [SHELVES] /SHELVES
+- [COFFEE TABLE] /COFFEE TABLE
+- [ENTRYWAY] /FOYER
+- [DOOR] /DOOR
+- [KITCHEN] /KITCHEN

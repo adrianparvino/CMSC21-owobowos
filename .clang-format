@@ -2,3 +2,5 @@ AllowShortIfStatementsOnASingleLine: true
 AlignAfterOpenBracket: BlockIndent
 IndentWidth: 4
 BreakStringLiterals: false
+AllowShortLoopsOnASingleLine: true
+AllowShortBlocksOnASingleLine: true 

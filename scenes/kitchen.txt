@@ -1,0 +1,9 @@
+KITCHEN
+
+You try to go back to the kitchen but when you open the door you are greeted by a white void constantly stuttering. You close the door. 
+
+[CHOICES]
+- [RETURN] Return to the living room.
+
+[ACTIONS]
+- [RETURN] /LIVING ROOM

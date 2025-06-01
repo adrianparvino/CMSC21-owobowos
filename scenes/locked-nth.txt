@@ -1,0 +1,9 @@
+LOCKED NTH
+
+The door shakes and the large lock rattles to its slow rhythm. There is no way to open it now that you surrendered the key, unknowingly or not. 
+
+[CHOICES]
+- [RETURN] Return to the foyer.
+
+[ACTIONS]
+- [RETURN] /FOYER

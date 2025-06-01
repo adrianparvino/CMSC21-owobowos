@@ -1,0 +1,12 @@
+COFFEE TABLE CORRECT
+
+A pencil! How could you have forgotten something so simple? Have you been trapped for so long that your memory has begun to fail you? Or has this house been stealing more and more away until you couldn't even recognize a pencil? You are an artist - no - you were an artist. The fact that you couldn't even recognize a pencil, let alone the sketchbook it was on, makes your face burn. You can’t bear to call yourself an artist anymore and yet your hand picks it up anyway. 
+
+The way your hand awkwardly curls around the pencil feels like a stab to the heart. It used to fit into creases of your hand like it was made to be there. Now all it feels like is awkward. Your free hand has been hovering over the sketchbook all this time. Do you dare to draw?
+
+[CHOICES]
+- [NO] No 
+- [YES] Yes
+
+[ACTIONS]
+- [NO] /COFFEE TABLE WRONG NO

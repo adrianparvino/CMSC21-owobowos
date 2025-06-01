@@ -1,0 +1,21 @@
+FOYER
+
+The room you have stepped into echoes the same wealth the prior one had. A large, almost gaudy, crystalline chandelier hangs at the center of the room. Directly below it is a stunning mosaic tile pattern of a several-sided star. Two staircases on opposite sides of the mosaic curve into each other as they gain height, finally merging into a landing at around the level of your height before continuing as one to the floor above you. In front of where the staircases meet there is a table with an ivory table top - its width equal to the width of the landing. The table is flanked by two towering plants that wrap into their respective bannisters. On it is a simple book and a lamp. 
+
+Opposite to the table are the large wooden doors that are your ticket to freedom. There are frosted glass accents all over the door itself and the frame surrounding it but the chorus of images are discordant - each having their own glimpse into different worlds. A sobering reminder that the way out is more difficult than simply opening the door. You still long to try to open it anyway. There is a door that is bolted shut with a comically large lock across a spot that's a few steps left of the entryway that you came from. 
+
+The signs telling on the lie this house tries to sell you are even more obvious here. The floor underneath your feet occasionally cracks, the slits’ colors often bright and incomprehensible, before shortly closing up. The plants by the table bloom flowers that turn into fruits - different each time, rotting all the same - in between breaths. The air is thick with magic and it wants to keep you here. 
+
+[CHOICES]
+- [BOOK] Walk to the book on the table
+- [STAIR] Go up the stairs
+- [EXIT] Try the doors that lead to the outside
+- [LOCKED] Examine the locked door
+- [ENTRYWAY] Return to the living room.
+
+[ACTIONS]
+- [BOOK] /BOOK
+- [STAIR] /STAIR
+- [EXIT] /EXIT
+- [LOCKED] /LOCKED
+- [ENTRYWAY] /LIVING ROOM

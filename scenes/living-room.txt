@@ -1,0 +1,25 @@
+LIVING ROOM
+You find yourself in a room dripping with opulence. The verdant velvet wallpapers accented with fleurs are adorned with framed portraits of people and places. There are shelves to your left with newspapers stacked haphazardly on top. A large couch sits pretty in the center of the room. A beautiful mahogany table accompanies it, littered with papers and other knicknacks you can’t quite make out. Underneath it all is a plush carpet sharing the wall’s fleurs. 
+
+You catch a glimpse of a staircase through a large entryway in the farthest corner of the room. In the opposite corner, a plain door stands out, oddly simple in a room filled with nothing but. The curtains are all closed and, thinking of prior experiences, you choose to keep them that way. The room is beautiful and homey yet you feel nothing but dread. Squinting reveals the way the surroundings stutter, the colors shift, reality warps. This is not real. 
+
+What do you do?
+
+[CHOICES]
+- [FRAMES] - Further examine the frames hanging on the walls.
+- [SHELVES] - Sift through the newspapers on the shelves
+- [COFFEE TABLE] - Approach the coffee table,
+- [ENTRYWAY] - Enter the room the entryway reveals.
+- [DOOR] -  Open the oddly simple door
+- [KITCHEN] - Go to the kitchen
+
+[ACTIONS]
+- [FRAMES] /FRAMES
+- [SHELVES] /SHELVES
+- [COFFEE TABLE] /COFFEE TABLE
+- [ENTRYWAY] /FOYER
+- [DOOR] /DOOR
+- [KITCHEN] /KITCHEN
+
+[POST]
+- /LIVING ROOM/LIVING ROOM NTH

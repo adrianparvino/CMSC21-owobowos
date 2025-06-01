@@ -1,0 +1,11 @@
+DOOR
+
+You open the door to another door, identical to the open you just opened. Do you wish to open it?
+
+[CHOICES]
+- [RETURN] Return to the living room.
+- [OPEN DOOR] Open the door.
+
+[ACTIONS]
+- [RETURN] /LIVING ROOM
+- [OPEN DOOR] /DOOR

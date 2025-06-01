@@ -1,0 +1,13 @@
+COFFEE TABLE
+
+On the messy top of the coffee table, there lies scattered papers, and what appears to be a ringed book. Something peculiar sits on the book - what appears to be a wooden stick. Its sharp end reveals a darker shinier material while the opposite end proudly displays a nub of pink rubber marred by dark splotches and missing some chunks. Something nags at your mind. You should know what this is, what it does - you know you’ve used several of these before - and yet its name and its purpose eludes you. 
+
+You rack your brain. You know what this is. Think long and hard; it's a
+[ACTIONS]
+- [PENCIL] /COFFEE TABLE CORRECT
+- [Pencil] /COFFEE TABLE CORRECT
+- [pencil] /COFFEE TABLE CORRECT
+- /COFFEE TABLE WRONG
+
+[POST]
+- /COFFEE TABLE/COFFEE TABLE NTH

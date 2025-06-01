@@ -1,0 +1,9 @@
+LOCKED NO
+
+The blood on the key begins to bubble. Suddenly corrosive, the blood rapidly eats up the metal. You drop the paper and the key in surprise. By the time the paper hits the floor, the key has all but dissolved. The paper’s appearance shifts as well, now reading “THANK YOU”
+
+[CHOICES]
+- [RETURN] Return to the foyer.
+
+[ACTIONS]
+- [RETURN] /FOYER

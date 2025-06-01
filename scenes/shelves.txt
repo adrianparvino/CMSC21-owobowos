@@ -1,0 +1,9 @@
+SHELVES
+
+You flip through the newspapers. The time period they were published in vary greatly with some even dating back to long before you were born. One such ancient relic speaks of a team of Wisdomseekers earning a lot of money from the sale of their prized research. 
+
+[CHOICES]
+- [RETURN] Return to the living room.
+
+[ACTIONS]
+- [RETURN] /LIVING ROOM

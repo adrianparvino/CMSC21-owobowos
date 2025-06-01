@@ -1,0 +1,13 @@
+LOCKED YES
+
+You grab the key and twist it to open the lock anyway. The door opens into nothingness and you take a confident step forward. Faster than you can blink, a pair of hands - boney and thin - find purchase in your neck. The fingers dig at the sides of your neck, preventing you from looking anywhere but ahead. Before you can even feel terror, the hands shift and your gaze has rapidly shifted in position east. A position you know, distantly, your neck would never allow normally. As quickly as it came into being, the hands on your neck seemingly disappear. You fall into the floor without their support. 
+
+Right before the darkness claims you, the last dredges of you that remain catch a glimpse of a lump - no, a corpse right beside you. Their hand so close to you is where the door would have been. You wish you could examine them but the darkness is fast approaching. 
+
+Mere moments ago, you were alive. Now, all that's left is another corpse in a room.
+
+[CHOICES]
+- [RETURN] Return to the foyer.
+
+[ACTIONS]
+- [RETURN] /FOYER

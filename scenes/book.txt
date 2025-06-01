@@ -1,3 +1,11 @@
 BOOK
 
 The glistening surface of the ivory table top is empty of nearly everything except for the book and the lamp that rests on its center.	You sift through the book and are nearly overwhelmed by the jargon it contains. From what you can glean, it's a heavily technical academic work - likely written by a Wisdomseeker - on summoning some powerful thing. It's dense and hard to read. The only saving grace of the book are the various notes decorating the margin. Some are colorful language bemoaning the dry writing but others are helpful notes clarifying the text. It doesn't change the fact that the book is a miserable read. A burning desire to pass the work on to something else is almost too strong. Do you listen to it?
+
+[CHOICES]
+- [NO] No
+- [YES] Yes
+
+[ACTIONS]
+- [NO] /BOOK MAIN1
+- [YES] /BOOK YES

@@ -1,0 +1,28 @@
+INTERSECTION3
+
+You lead her to the brick building but every step the world fades away and melts back into the cold dark damp stone. The phantom hand in your own haunts you still but any more pondering you may have done is interrupted by your sudden change of axis. 
+
+No, the world did not rotate, your throbbing toe seems to tell you. Your cheek agrees, feeling the cold hard ground. It seems you have fallen down. You quickly rise and squint at the ground, trying to see what could have caused your fall. Just as you are beginning to think you merely tripped on air, your eyes catch a glimpse of something. It seems to be buried so you get on your knees to pull it out of there.
+
+After a few solid tugs, your hand now holds something covered in paper. You unwrap it, noting that the paper is torn and has something written on it. 
+
+“- lead to nowhere
+- ad to the end. 
+- times the charm”
+
+(If HAS TORN NOTE: Your eyes widen in realization. It’s the other half of the torn paper from earlier! You quickly free one hand to grab the note from earlier to combine the two. Together the note says: “roads that lead to nowhere may just lead to the end. third times the charm”)
+
+You keep the paper and further examine what you have unearthed. It's a thin rectangular card of sorts. There are things written on it but they have long since faded. All that remains is a blurry square photo of a gentle looking elf. Pocketing your findings you continue on. 
+
+It shouldn’t have surprised you when the dark walkway transformed into a room filled to the brim with books - a library, you guess. In your feeble defence, unlike the prior transformation, this was more abrupt. One step, it was the dingy maze. A step after that it was a library. You will say, when the stern looking centaur appeared in front of you, you valiantly resisted the urge to scream like last time. The old centaur looks at you expectantly and says, “Have you decided if you wish to continue or not?”
+
+He points at the majestic double door that you somehow instinctively know leads back to the main campus. The way he automatically assumes the answer is yes grates on your nerves. Your eyes catch the exit sign to your left. The exit has never been more appealing.
+
+The centaur taps his hooves impatiently. What door do you choose?
+
+[CHOICES]
+- [DOUBLE] The huge double door that leads to the main campus
+- [EXIT] The small exit to your left.
+
+[ACTIONS]
+- [DOUBLE] /BASEMENT

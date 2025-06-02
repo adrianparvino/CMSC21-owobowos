@@ -1,0 +1,11 @@
+BASEMENT POST BOX
+
+To your surprise, the small dingy room showed great restraint by staying the same. No odd flashes of colors between ephemeral cracks in reality, no patches disappearing and reappearing into and from the ether, no sudden and brief transformations into totally different locations. The damp dark room is still lit by the two torches flanking the entryway shrouded in darkness. The boxes are still as you left them, ransacked with their flaps still open. The room's stability unnerves you. You are constantly waiting for the shoe to drop. 
+
+[CHOICES]
+- [BOXES] Examine the boxes behind you
+- [DOOR] Walk through the door and into whatever the darkness has hidden.
+
+[ACTIONS]
+- [BOXES] /BOXES
+- [DOOR] /MAZE

@@ -1,0 +1,14 @@
+MAZE
+
+Something oddly stops you in your tracks. There is a nagging in your head and you stop to figure out what’s bothering you. Lightning fast it hits you, your feet have been antsy this entire time, shifting your weight from the balls of your feet to your toes every time you stand still. You’ve been trapped in this house for so long, been stuck in this loop. Surely everything you’ve done so far, you had already done before. This maze is no different. Perhaps. Maybe - just maybe. Your feet already know the way, that way. Do you let your muscle memory take control?
+
+[CHOICES]
+- [NO] No.
+- [YES] Yes.
+
+[ACTIONS]
+- [NO] /INTERSECTION1
+
+[POST]
+- /BASEMENT/BASEMENT FIRST
+- /MAZE/INTERSECTION1+RESTART

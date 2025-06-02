@@ -6,6 +6,8 @@ Opposite to the table are the large wooden doors that are your ticket to freedom
 
 The signs telling on the lie this house tries to sell you are even more obvious here. The floor underneath your feet occasionally cracks, the slits’ colors often bright and incomprehensible, before shortly closing up. The plants by the table bloom flowers that turn into fruits - different each time, rotting all the same - in between breaths. The air is thick with magic and it wants to keep you here. 
 
+What do you do?
+
 [CHOICES]
 - [BOOK] Walk to the book on the table
 - [STAIR] Go up the stairs
@@ -19,3 +21,6 @@ The signs telling on the lie this house tries to sell you are even more obvious 
 - [EXIT] /EXIT
 - [LOCKED] /LOCKED
 - [ENTRYWAY] /LIVING ROOM
+
+[POST]
+- /FOYER/FOYER NTH

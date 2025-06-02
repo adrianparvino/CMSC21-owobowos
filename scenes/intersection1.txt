@@ -1,0 +1,13 @@
+INTERSECTION1
+
+You walk in total darkness for what seems like an eternity until a red glow fills the room. What greets you straight ahead appears to be a gaping angry maw, glowing red with rage. The growls you hear from beyond imprint deep into your bones a primal fear that wants you to run. To your left there is another entryway. There is nothing particularly special about it. 
+
+Which direction will you choose?
+
+[CHOICES]
+- [STRAIGHT] Go straight.
+- [LEFT] Go left.
+
+[ACTIONS]
+- [STRAIGHT] /BASEMENT
+- [LEFT] /INTERSECTION2

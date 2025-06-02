@@ -25,13 +25,13 @@ class PersistentCounter {
 
 class AbstractSceneResult {
   public:
-    virtual void run(Game &game) = 0;
+    virtual void run(Game &game) const = 0;
 };
 
 class SceneResult : public AbstractSceneResult {
   public:
     static SceneResult from_string(std::string);
-    virtual void run(Game &game) override;
+    virtual void run(Game &game) const override;
     std::optional<std::string> transition;
     std::optional<std::string> inventory;
     std::optional<std::pair<std::string, std::string>> replace;
@@ -65,13 +65,14 @@ class Scene {
 
 class Game {
   public:
-    void registerScene(std::shared_ptr<Scene> scene);
+    void registerScene(std::shared_ptr<Scene> &&scene);
     void run(std::string key);
     std::map<std::string, bool> inventory;
 
   private:
     std::shared_ptr<Scene> currentScene;
     std::map<std::string, std::shared_ptr<Scene>> scenes;
+    std::map<std::string, std::string> replacements;
 
     friend class SceneResult;
 };

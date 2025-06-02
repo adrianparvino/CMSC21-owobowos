@@ -30,9 +30,15 @@ int PersistentCounter::postIncrement() {
     return x;
 }
 
-void SceneResult::run(Game &game) {
+void SceneResult::run(Game &game) const {
     if (transition.has_value()) {
-        auto nextScene = game.scenes.find(transition.value());
+        auto key = transition.value();
+        for (auto key_ = game.replacements.find(key);
+             key_ != game.replacements.end();
+             key_ = game.replacements.find(key)) {
+            key = key_->second;
+        }
+        auto nextScene = game.scenes.find(key);
 
         if (nextScene == game.scenes.end()) {
             std::cout << "Invalid scene key." << std::endl;
@@ -44,8 +50,7 @@ void SceneResult::run(Game &game) {
 
     if (replace.has_value()) {
         auto [from, to] = *replace;
-        std::cout << "Replacing " << from << " with " << to << std::endl;
-        game.scenes[from] = game.scenes[to];
+        game.replacements[from] = to;
     }
 }
 
@@ -209,8 +214,8 @@ std::string Scene::parse_actions(std::ifstream &file) {
     return line;
 }
 
-void Game::registerScene(std::shared_ptr<Scene> scene) {
-    scenes.insert(std::make_pair(scene->key, std::move(scene)));
+void Game::registerScene(std::shared_ptr<Scene> &&scene) {
+    scenes.insert(std::make_pair(scene->key, scene));
 }
 
 void Game::run(std::string key) {
@@ -225,8 +230,13 @@ void Game::run(std::string key) {
         auto [sceneResult, posts] = currentScene->run(*this);
 
         if (sceneResult == nullptr) { continue; }
-        inventory[currentScene->key] = false;
-        for (auto post : *posts) { post.run(*this); }
+        auto key = currentScene->key;
+        for (auto key_ = replacements.find(key); key_ != replacements.end();
+             key_ = replacements.find(key)) {
+            key = key_->second;
+        }
+        inventory[key] = false;
+        for (auto const &post : *posts) { post.run(*this); }
         sceneResult->run(*this);
     }
 }
@@ -243,7 +253,7 @@ int main() {
         );
     }
 
-    game.run("FOYER");
+    game.run("LIVING ROOM");
 
     return 0;
 }

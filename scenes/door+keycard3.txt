@@ -1,0 +1,13 @@
+DOOR+KEYCARD3
+
+You open the door to a distinctly different door. It is a metallic door rusted green and overgrown with moss. There is an incredibly old sensor blinking where the lock would usually be.
+
+What do you do?
+
+[CHOICES]
+- [RETURN] Return to the living room.
+- [OPEN DOOR] Open the door.
+
+[ACTIONS]
+- [RETURN] /LIVING ROOM
+- [OPEN DOOR] /DOOR+KEYCARD4

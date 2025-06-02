@@ -16,3 +16,4 @@ You pocket the note and return to the mouth of the entryway.
 
 [POST]
 - /BOXES/BOXES NTH
+- /INTERSECTION3.2/INTERSECTION3.2+TORN

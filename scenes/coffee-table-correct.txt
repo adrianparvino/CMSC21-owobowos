@@ -10,3 +10,4 @@ The way your hand awkwardly curls around the pencil feels like a stab to the hea
 
 [ACTIONS]
 - [NO] /COFFEE TABLE WRONG NO
+- [YES] /COFFEE TABLE MAIN1

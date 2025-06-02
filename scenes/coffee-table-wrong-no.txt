@@ -12,3 +12,7 @@ Don’t forget the books!, you think to yourself. Well - your mind wanders to th
 
 [ACTIONS]
 - [RETURN] /LIVING ROOM
+
+[POST]
+- /BOOK NTH/BOOK NTH+PENCIL
+- /BOOK MAIN4/BOOK MAIN4+PENCIL

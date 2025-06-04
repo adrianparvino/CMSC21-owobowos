@@ -37,6 +37,7 @@ class SceneResult : public AbstractSceneResult {
     std::optional<std::string> transition;
     std::optional<std::string> inventory;
     std::optional<std::pair<std::string, std::string>> replace;
+    bool increment_counter = false;
 };
 
 class Scene {
@@ -49,7 +50,7 @@ class Scene {
   private:
     std::string description;
     std::map<std::string, std::string> conditional_descriptions;
-    std::map<std::string, std::string> choices;
+    std::vector<std::string> choices;
     std::map<std::string, SceneResult> actions;
     std::vector<SceneResult> posts;
     std::optional<SceneResult> defaultAction;
@@ -69,9 +70,13 @@ class Scene {
 
 class Game {
   public:
+    Game(PersistentCounter &counter);
+
     void registerScene(std::shared_ptr<Scene> &&scene);
     void run(std::string key);
     std::map<std::string, bool> inventory;
+
+    PersistentCounter &counter;
 
   private:
     std::shared_ptr<Scene> currentScene;

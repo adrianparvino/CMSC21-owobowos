@@ -67,6 +67,8 @@ void SceneResult::run(Game &game) const {
         auto [from, to] = *replace;
         game.replacements[from] = to;
     }
+
+    if (increment_counter) { game.counter++; }
 }
 
 Scene::Scene(std::ifstream &&file) {
@@ -78,7 +80,7 @@ Scene::Scene(std::ifstream &&file) {
     while (std::getline(file, line) && line.empty()) {}
     description += line;
     while (std::getline(file, line)) {
-        if (line.front() == '[') { break; }
+        if (line.front() == '[' && line != "[COUNTER]") { break; }
         description += '\n';
         description += line;
     }
@@ -112,6 +114,7 @@ Scene::run(Game &game) {
         std::string input;
         std::cout << ">>> ";
         std::getline(std::cin, input);
+        std::cout << std::endl;
 
         if (input == "quit") { exit(0); }
         if (input == "help") {
@@ -130,6 +133,8 @@ Scene::run(Game &game) {
 };
 
 void Scene::show_description(Game &game) {
+    static std::string counter_string("[COUNTER]");
+
     std::string description = this->description;
 
     for (auto &[key, value] : conditional_descriptions) {
@@ -139,12 +144,29 @@ void Scene::show_description(Game &game) {
         }
     }
 
-    std::cout << description << std::endl;
+    auto found_counter = description.find(counter_string);
+    if (found_counter != std::string::npos) {
+        std::string_view description_view = description;
+
+        do {
+            std::cout << description_view.substr(0, found_counter)
+                      << *game.counter;
+
+            description_view.remove_prefix(
+                found_counter + counter_string.size()
+            );
+        } while ((found_counter = description_view.find(counter_string)) !=
+                 std::string::npos);
+
+        std::cout << description_view << std::endl;
+    } else {
+        std::cout << description << std::endl;
+    }
 }
 
 void Scene::show_choices() {
-    for (auto choice : choices) {
-        std::cout << "- " << choice.second << std::endl;
+    for (auto const &choice : choices) {
+        std::cout << "- " << choice << std::endl;
     }
 }
 
@@ -156,12 +178,8 @@ std::string Scene::parse_choices(std::ifstream &file) {
         if (line.front() != '-') { continue; }
 
         auto start = line.find('[');
-        auto end = line.find(']');
 
-        std::string command = line.substr(start + 1, end - start - 1);
-        std::string prompt = line.substr(start);
-
-        choices[command] = prompt;
+        choices.push_back(line.substr(start));
     }
 
     return line;
@@ -174,14 +192,22 @@ std::string Scene::parse_post(std::ifstream &file) {
         if (line.front() == '[') { break; }
         if (line.front() != '-') { continue; }
 
-        auto start = line.find('/');
-        auto end = line.find('/', start + 1);
-
-        std::string from = line.substr(start + 1, end - start - 1);
-        std::string to = line.substr(end + 1);
-
         SceneResult result;
-        result.replace = std::make_pair(from, to);
+
+        auto start = line.find("COUNTER++");
+        if (start != std::string::npos) {
+            result.increment_counter = true;
+        } else if ((start = line.find('/')) != std::string::npos) {
+            auto end = line.find('/', start + 1);
+
+            std::string from = line.substr(start + 1, end - start - 1);
+            std::string to = line.substr(end + 1);
+
+            result.replace = std::make_pair(from, to);
+        } else {
+            continue;
+        }
+
         posts.push_back(result);
     }
 
@@ -251,6 +277,8 @@ std::string Scene::parse_auto(std::ifstream &file) {
     return line;
 }
 
+Game::Game(PersistentCounter &counter) : counter(counter) {}
+
 void Game::registerScene(std::shared_ptr<Scene> &&scene) {
     scenes.insert(std::make_pair(scene->key, scene));
 }
@@ -281,16 +309,14 @@ void Game::run(std::string key) {
 int main() {
     static PersistentCounter counter("played.txt");
 
-    std::cout << "Played " << counter++ << " times." << std::endl;
-
-    Game game;
+    Game game(counter);
     for (auto const &file : std::filesystem::directory_iterator("scenes")) {
         game.registerScene(
             std::shared_ptr<Scene>(new Scene(std::ifstream(file.path())))
         );
     }
 
-    game.run("MAZE END");
+    game.run("INTRODUCTION");
 
     return 0;
 }

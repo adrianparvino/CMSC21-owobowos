@@ -7,7 +7,7 @@ The twin doors to the outside world sing to you, each glass accent finally in ha
 What do you do?
 
 [CHOICES]
-- [BOOK] Walk to the book on the table
+- [BOOK] Walk to the table where the book used to be.
 - [STAIR] Go up the stairs
 - [EXIT] Try the doors that lead to the outside
 - [LOCKED] Examine the locked door

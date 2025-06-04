@@ -16,4 +16,4 @@ The centaur taps his hooves impatiently. What door do you choose?
 
 [ACTIONS]
 - [DOUBLE] /BASEMENT
-- [EXIT] /FOYER
+- [EXIT] /MAZE END

@@ -6,8 +6,11 @@ What do you do?
 
 [CHOICES]
 - [RETURN] Return to the living room.
-- [OPEN DOOR] Open the door.
+- [USE ___] Use an item.
 
 [ACTIONS]
 - [RETURN] /LIVING ROOM
-- [OPEN DOOR] /DOOR+KEYCARD4
+- [USE KEYCARD] /DOOR+KEYCARD4
+- [USE ID] /DOOR+KEYCARD4
+- [USE CARD] /DOOR+KEYCARD4
+- /DOOR+KEYCARD3

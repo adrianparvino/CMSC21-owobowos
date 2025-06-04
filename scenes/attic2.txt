@@ -1,0 +1,9 @@
+ATTIC2
+
+Your faith is rewarded when the staircase - like the maze before it - abruptly transforms. There is a whirl of snow surrounding you as the surroundings morph into a dense forest with towering trees dusted with snow and the sounds that promise life. There is a path in front of you and so you continue walking. The cold burns but you do your best to ignore it especially since no snow actually ends up on your person. Faintly you hear someone sobbing, their cries getting louder as you march onwards. Eventually you see a figure in the distance, half collapsed on the road you are journeying. You run to help them but your arms pass through them. They have long auburn hair and their hoarse voice cries, “Don’t leave me. Please. I can’t bear to be alone.”
+
+[CHOICES]
+- [CONTINUE] Continue.
+
+[ACTIONS]
+- [CONTINUE] /ATTIC3

@@ -1,3 +1,9 @@
 ATTIC
 
 The first few steps into the unknown are always shaky and yours is no different. You find your rhythm quickly enough and, although you never stop being cautious, your pace increases. The staircase seems endless, every step you take futile as it stretches on to infinity. You keep pressing forward regardless. Somewhere along the way you have found the drive to move forward. You never stopped wanting to escape but an apathy had enveloped you without you realizing it, every failed attempt grating at your soul even as the memories of those failures are stolen right from under you. The climb is difficult and maybe the you from this morning would have balked at such a demanding and seemingly pointless task but something in you urges you onward.
+
+[CHOICES]
+- [CONTINUE] Continue.
+
+[ACTIONS]
+- [CONTINUE] /ATTIC2

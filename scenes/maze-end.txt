@@ -12,3 +12,4 @@ What greets you at the end of the maze is a room that mirrors its entrance. It s
 - /EXIT/EXIT+MAZE
 - /LOCKED/LOCKED+MAZE
 - /COFFEE TABLE/COFFEE TABLE NTH
+- /DOOR/DOOR+KEYCARD

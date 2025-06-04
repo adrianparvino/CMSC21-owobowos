@@ -17,3 +17,8 @@ Benefactor cut that out! Do Not Think about-
  \ \     | |  |  | |  | |  /  
 | \ |    | |  \  |_|  / |  |
 \__/     |_|   \_____/  |__|   
+
+[PAUSE/10s]
+
+[AUTO]
+- /CHOICES

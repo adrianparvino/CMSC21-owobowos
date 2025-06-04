@@ -1,11 +1,16 @@
+#include <array>
+#include <charconv>
+#include <chrono>
 #include <filesystem>
 #include <fstream>
+#include <functional>
 #include <iostream>
 #include <map>
 #include <memory>
 #include <optional>
 #include <string>
 #include <string_view>
+#include <thread>
 
 #include "types.hpp"
 
@@ -69,6 +74,11 @@ void SceneResult::run(Game &game) const {
     }
 
     if (increment_counter) { game.counter++; }
+
+    if (reset_game) {
+        game.replacements.clear();
+        game.inventory.clear();
+    }
 }
 
 Scene::Scene(std::ifstream &&file) {
@@ -80,7 +90,10 @@ Scene::Scene(std::ifstream &&file) {
     while (std::getline(file, line) && line.empty()) {}
     description += line;
     while (std::getline(file, line)) {
-        if (line.front() == '[' && line != "[COUNTER]") { break; }
+        auto sv = std::string_view(line);
+        if (sv.front() == '[' && sv != "[COUNTER]" && sv.find("[PAUSE/") != 0) {
+            break;
+        }
         description += '\n';
         description += line;
     }
@@ -133,7 +146,27 @@ Scene::run(Game &game) {
 };
 
 void Scene::show_description(Game &game) {
-    static std::string counter_string("[COUNTER]");
+    static std::array<
+        std::tuple<
+            std::string, std::string,
+            std::function<void(Game &, std::string_view const &)>>,
+        2>
+        items = {
+            std::tuple{
+                "[COUNTER", "]",
+                [](Game &game, std::string_view const &sv) {
+                    std::cout << *game.counter;
+                }
+            },
+            std::tuple{
+                "\n[PAUSE/", "s]\n",
+                [](Game &game, std::string_view const &sv) {
+                    int seconds;
+                    std::from_chars(sv.data(), sv.data() + sv.size(), seconds);
+                    std::this_thread::sleep_for(std::chrono::seconds(seconds));
+                }
+            }
+        };
 
     std::string description = this->description;
 
@@ -144,24 +177,35 @@ void Scene::show_description(Game &game) {
         }
     }
 
-    auto found_counter = description.find(counter_string);
-    if (found_counter != std::string::npos) {
-        std::string_view description_view = description;
+    std::string_view description_view = description;
+    for (;;) {
+        decltype(items.begin()) it;
 
-        do {
-            std::cout << description_view.substr(0, found_counter)
-                      << *game.counter;
+        for (it = items.begin(); it != items.end(); ++it) {
+            auto [prefix, postfix, func] = *it;
 
-            description_view.remove_prefix(
-                found_counter + counter_string.size()
-            );
-        } while ((found_counter = description_view.find(counter_string)) !=
-                 std::string::npos);
+            auto start = description_view.find(prefix);
 
-        std::cout << description_view << std::endl;
-    } else {
-        std::cout << description << std::endl;
+            if (start != std::string::npos) {
+                std::cout << description_view.substr(0, start);
+
+                auto end = description_view.find(postfix);
+
+                func(
+                    game, description_view.substr(
+                              start + prefix.size(), end - start - prefix.size()
+                          )
+                );
+
+                description_view.remove_prefix(end + postfix.size());
+                break;
+            }
+        }
+
+        if (it == items.end()) { break; }
     }
+
+    std::cout << description_view << std::endl;
 }
 
 void Scene::show_choices() {
@@ -197,6 +241,8 @@ std::string Scene::parse_post(std::ifstream &file) {
         auto start = line.find("COUNTER++");
         if (start != std::string::npos) {
             result.increment_counter = true;
+        } else if ((start = line.find("RESET")) != std::string::npos) {
+            result.reset_game = true;
         } else if ((start = line.find('/')) != std::string::npos) {
             auto end = line.find('/', start + 1);
 
@@ -316,7 +362,7 @@ int main() {
         );
     }
 
-    game.run("INTRODUCTION");
+    game.run("REVEAL");
 
     return 0;
 }

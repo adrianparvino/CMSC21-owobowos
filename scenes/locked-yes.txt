@@ -6,8 +6,9 @@ Right before the darkness claims you, the last dredges of you that remain catch 
 
 Mere moments ago, you were alive. Now, all that's left is another corpse in a room.
 
-[CHOICES]
-- [RETURN] Return to the foyer.
+[PAUSE/1s]
 
-[ACTIONS]
-- [RETURN] /FOYER
+
+
+[AUTO]
+- /UNEASY END4

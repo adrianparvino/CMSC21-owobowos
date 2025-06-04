@@ -1,0 +1,9 @@
+ATTIC4
+
+Your determination briefly turns into terror when the wooden steps are suddenly replaced by a familiar damp stone. You break into a run. This isn’t real, you tell yourself, just another attempt to get you to give up. You aren’t back in the maze, the air your breathing is too fresh. You run anyway because you will not let this house trap you any longer. You catch a glimpse of the familiar wood your feet have gotten well acquainted with at this point. You’re about to run faster when an outstretched foot stops you in your tracks. Your eyes follow the foot to the body it belongs to and what you see is a severely emaciated human. They’re half slumped against a wall, writing into a book. Silent tears flow freely, although at their state leak would be more appropriate, as you catch half slurred mumbles. “This… was… a… mistake. I- I’m… sorry.”
+
+[CHOICES]
+- [CONTINUE] Continue.
+
+[ACTIONS]
+- [CONTINUE] /ATTIC5

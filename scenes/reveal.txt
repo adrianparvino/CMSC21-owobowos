@@ -1,0 +1,17 @@
+REVEAL
+
+What greets you when you open the door, thankfully, isn’t another door. Instead, what lies beyond the door is what appears to be the house’s attic. The ceiling is low and sloped, support beams crisscrossing in the space above you. There are dusty boxes everywhere. The scene in front of you looks plain, suspiciously slow. Confusion fights with wariness within you. Another trick? Your eyes dark all over the place, trying to find something - anything - to key you into why you ended up in an attic of all places trying to get out. Your eyes land on a plain mirror propped up by one of the many boxes. It’s right in front of you so you catch a glimpse of your tired face, your ginger hair, and you catch a glimpse of…
+
+Me.
+
+Hello there, sweet benefactor.
+
+You turn your head in shock to look behind you - to look at me. I’m a faint echo of a person, barely visible, although I can change that quite easily. And I do, for your own comfort. The first form I slip into is that of a particular human with quite a smile, your face pinches and I wish I could say I would wonder if you even remember why, but I already know you don’t. 
+
+You feel a thrill of terror race through your spine.
+
+[CHOICES]
+- [INTERROGATE] "How do you know-"
+
+[ACTIONS]
+- [INTERROGATE] /REVEAL2

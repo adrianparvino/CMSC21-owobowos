@@ -13,3 +13,6 @@ There is a note beneath your feet and as you crouch to pick it up, the whole roo
 [ACTIONS]
 - [BOXES] /BOXES
 - [DOOR] /MAZE
+
+[POST]
+- /LIVING ROOM/LIVING ROOM+MAZE

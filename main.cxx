@@ -17,7 +17,20 @@ PersistentCounter::PersistentCounter(const char *filename)
     }
 }
 
-int PersistentCounter::postIncrement() {
+int PersistentCounter::operator++() {
+    int x = ++counter;
+
+    if (file.is_open()) {
+        file.clear();
+        file.seekp(0);
+        file << counter << std::endl;
+        file.flush();
+    }
+
+    return x;
+}
+
+int PersistentCounter::operator++(int) {
     int x = counter++;
 
     if (file.is_open()) {
@@ -29,6 +42,8 @@ int PersistentCounter::postIncrement() {
 
     return x;
 }
+
+int PersistentCounter::operator*() { return counter; }
 
 void SceneResult::run(Game &game) const {
     if (transition.has_value()) {
@@ -78,6 +93,8 @@ Scene::Scene(std::ifstream &&file) {
             line = parse_conditional_descriptions(sv.substr(2, end - 2), file);
         } else if (line == "[POST]") {
             line = parse_post(file);
+        } else if (line == "[AUTO]") {
+            line = parse_auto(file);
         } else {
             getline(file, line);
         }
@@ -88,6 +105,8 @@ std::pair<AbstractSceneResult *, std::vector<SceneResult> *>
 Scene::run(Game &game) {
     show_description(game);
     show_choices();
+
+    if (autoAction.has_value()) { return {&autoAction.value(), &posts}; }
 
     for (;;) {
         std::string input;
@@ -214,6 +233,24 @@ std::string Scene::parse_actions(std::ifstream &file) {
     return line;
 }
 
+std::string Scene::parse_auto(std::ifstream &file) {
+    std::string line;
+
+    while (std::getline(file, line)) {
+        if (line.front() == '[') { break; }
+        if (line.front() != '-') { continue; }
+
+        SceneResult result;
+
+        auto start = line.find('/');
+        result.transition = line.substr(start + 1);
+
+        autoAction = result;
+    }
+
+    return line;
+}
+
 void Game::registerScene(std::shared_ptr<Scene> &&scene) {
     scenes.insert(std::make_pair(scene->key, scene));
 }
@@ -244,7 +281,7 @@ void Game::run(std::string key) {
 int main() {
     static PersistentCounter counter("played.txt");
 
-    std::cout << "Played " << counter.postIncrement() << " times." << std::endl;
+    std::cout << "Played " << counter++ << " times." << std::endl;
 
     Game game;
     for (auto const &file : std::filesystem::directory_iterator("scenes")) {
@@ -253,7 +290,7 @@ int main() {
         );
     }
 
-    game.run("LIVING ROOM");
+    game.run("MAZE END");
 
     return 0;
 }

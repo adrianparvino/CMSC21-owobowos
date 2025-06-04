@@ -1,0 +1,11 @@
+CHOICE ACCEPT
+
+I hand you the necklace in exchange for all your assorted trinkets and send you on your merry way. 
+
+You face the door, a little bit daunted at the prospect of living once again after being trapped for so long, but clutching the necklace for some comfort, you take the plunge and step into the great beyond.
+
+[CHOICES]
+- [CONTINUE] Continue.
+
+[ACTIONS]
+- [CONTINUE] /UNEASY END

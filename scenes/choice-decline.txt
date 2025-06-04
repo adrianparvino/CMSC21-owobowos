@@ -1,0 +1,11 @@
+CHOICE DECLINE
+
+A thought enters your mind, another thought that is entirely yours. You think back to when I said you’ve left before but always returned anyway and are struck by the realization that it's because you keep giving yourself up and never letting go of me. The trinkets on your person? They’re parts of you, proof of your journey. The necklace I am offering you? A tempting line back into the house that made sense, where everything has a neat solution or an ideal progression. Something called you to this house in the first place. The necklace will always remind you of that.
+
+To truly leave you have to leave behind the desires for quick fixes. To truly leave you must not surrender any more of yourself that you already have. To truly leave, you must never return. And so, you shake your head and march into the unknown with nary a glance.
+
+[CHOICES]
+- [CONTINUE] Continue.
+
+[ACTIONS]
+- [CONTINUE] /TRUE END

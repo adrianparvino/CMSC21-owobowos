@@ -16,7 +16,9 @@ class InventoryEntry {
 class PersistentCounter {
   public:
     PersistentCounter(const char *filename);
-    int postIncrement();
+    int operator++();
+    int operator++(int);
+    int operator*();
 
   private:
     std::fstream file;
@@ -51,6 +53,7 @@ class Scene {
     std::map<std::string, SceneResult> actions;
     std::vector<SceneResult> posts;
     std::optional<SceneResult> defaultAction;
+    std::optional<SceneResult> autoAction;
 
     std::string parse_post(std::ifstream &file);
     std::string parse_conditional_descriptions(
@@ -58,6 +61,7 @@ class Scene {
     );
     std::string parse_choices(std::ifstream &file);
     std::string parse_actions(std::ifstream &file);
+    std::string parse_auto(std::ifstream &file);
 
     void show_description(Game &game);
     void show_choices();

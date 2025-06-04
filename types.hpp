@@ -38,6 +38,7 @@ class SceneResult : public AbstractSceneResult {
     std::optional<std::string> inventory;
     std::optional<std::pair<std::string, std::string>> replace;
     bool increment_counter = false;
+    bool reset_game = false;
 };
 
 class Scene {

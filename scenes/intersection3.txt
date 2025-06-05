@@ -12,9 +12,10 @@ something. It seems to be buried so you get on your knees to pull it out of ther
 After a few solid tugs, your hand now holds something covered in paper. You unwrap it, noting that the paper is
 torn and has something written on it.
 
-"- lead to nowhere
-- ad to the end.
-- times the charm"
+    "- lie.
+    - lead to nowhere
+    - ad to the end.
+    - times the charm."
 
 [CHOICES]
 - [CONTINUE] Continue.

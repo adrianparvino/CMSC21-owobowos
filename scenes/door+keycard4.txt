@@ -1,6 +1,8 @@
 DOOR+KEYCARD4
 
-The door opens to another different door. It is a simple door, though not as plain as the prior doors. The combination "G-3" is carved into the wood at around eye level. There is a combination lock in place of a keyhole. Patches of blue flowers - forget-me-nots, your mind finally remembers -  decorate the feet of the door. 
+The door opens to another different door. It is a simple door, though not as plain as the prior doors. The combination
+"G-3" is carved into the wood at around eye level. There is a combination lock in place of a keyhole. Patches of
+blue flowers - forget-me-nots, your mind finally remembers -  decorate the feet of the door.
 
 What do you put into the combination lock?
 

@@ -1,8 +1,15 @@
 INTRODUCTION5
 
-You rush to the sink to let it run. Water starts flowing and you cup your hand under the spout, hoping to shock yourself awake with the cold water, only for it to remain frustratingly dry. The water is passing through your hand as if it isn't even there. The world flickers once again, your kitchen disappearing and reappearing in a breath. You look out of the windows and what greets you is a mess of confused images. Some panes show nothing but solid colors, bright and seering, some panes show glimpses of different scenes: a winter wonderland, a busy street, a calm forest. 
+You rush to the sink to let it run. Water starts flowing and you cup your hand under the spout, hoping to shock
+yourself awake with the cold water, only for it to remain frustratingly dry. The water is passing through your hand
+as if it isn't even there. The world flickers once again, your kitchen disappearing and reappearing in a breath. You
+look out of the windows and what greets you is a mess of confused images. Some panes show nothing but solid colors,
+bright and seering, some panes show glimpses of different scenes: a winter wonderland, a busy street, a calm forest.
 
-Your stomach drops so fast it hits terminal velocity. The realization hits you like a brick. You're back. Back to where? You don't remember, all you know with a cold terrifying certainty is that you've done this before. Too many times. A number pops into your head. [COUNTER]. You don't want to know why your brain thought of that number. You're almost scared to entertain the thought. You need to get out.
+Your stomach drops so fast it hits terminal velocity. The realization hits you like a brick. You're back. Back to
+where? You don't remember, all you know with a cold terrifying certainty is that you've done this before. Too many
+times. A number pops into your head. [COUNTER]. You don't want to know why your brain thought of that number. You're
+almost scared to entertain the thought. You need to get out.
 
 [CHOICES]
 - [CONTINUE] Continue.

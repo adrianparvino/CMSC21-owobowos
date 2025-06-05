@@ -1,13 +1,19 @@
 INTERSECTION3
 
-You lead her to the brick building but every step the world fades away and melts back into the cold dark damp stone. The phantom hand in your own haunts you still but any more pondering you may have done is interrupted by your sudden change of axis. 
+You lead her to the brick building but every step the world fades away and melts back into the cold dark damp
+stone. The phantom hand in your own haunts you still but any more pondering you may have done is interrupted by
+your sudden change of axis.
 
-No, the world did not rotate, your throbbing toe seems to tell you. Your cheek agrees, feeling the cold hard ground. It seems you have fallen down. You quickly rise and squint at the ground, trying to see what could have caused your fall. Just as you are beginning to think you merely tripped on air, your eyes catch a glimpse of something. It seems to be buried so you get on your knees to pull it out of there.
+No, the world did not rotate, your throbbing toe seems to tell you. Your cheek agrees, feeling the cold hard
+ground. It seems you have fallen down. You quickly rise and squint at the ground, trying to see what could have
+caused your fall. Just as you are beginning to think you merely tripped on air, your eyes catch a glimpse of
+something. It seems to be buried so you get on your knees to pull it out of there.
 
-After a few solid tugs, your hand now holds something covered in paper. You unwrap it, noting that the paper is torn and has something written on it. 
+After a few solid tugs, your hand now holds something covered in paper. You unwrap it, noting that the paper is
+torn and has something written on it.
 
 "- lead to nowhere
-- ad to the end. 
+- ad to the end.
 - times the charm"
 
 [CHOICES]

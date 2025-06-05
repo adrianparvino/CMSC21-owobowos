@@ -1,6 +1,8 @@
 UNEASY END3
 
-A nap wouldn't hurt right? The forest is peaceful, the day is nice, everything is perfect. You're already halfway to the forest floor before you know it. It's only a quick one, you tell yourself as you get comfortable. You lay your head on the bark of a nearby tree and are out like a light in a matter of seconds. 
+A nap wouldn't hurt right? The forest is peaceful, the day is nice, everything is perfect. You're already halfway
+to the forest floor before you know it. It's only a quick one, you tell yourself as you get comfortable. You lay
+your head on the bark of a nearby tree and are out like a light in a matter of seconds.
 
 [CHOICES]
 - [CONTINUE] Continue.

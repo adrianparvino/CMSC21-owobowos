@@ -1,6 +1,7 @@
 BOOK+MAZE
 
-You cannot make out the table from the foliage. The lamp has been completely subsumed by the greenery. There is nothing you can do at this point.  
+You cannot make out the table from the foliage. The lamp has been completely subsumed by the greenery. There is
+nothing you can do at this point.
 
 [CHOICES]
 - [RETURN] Return to the foyer.

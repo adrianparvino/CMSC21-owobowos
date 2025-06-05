@@ -1,6 +1,7 @@
 EXIT
 
-The doors in front of you seem to loom. You try to open both handles but are, predictably, met with resistance. The ornate bronze lock mocks you. You may not leave yet.
+The doors in front of you seem to loom. You try to open both handles but are, predictably, met with resistance. The
+ornate bronze lock mocks you. You may not leave yet.
 
 [CHOICES]
 - [RETURN] Return to the foyer.

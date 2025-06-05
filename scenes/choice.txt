@@ -1,8 +1,11 @@
 CHOICE
 
-Fine. You win! Congratulations you outsmarted the magical fae supposedly more intelligent than you humanoids could ever hope to be. I snap my fingers and a door appears. It looks exactly like the door in the foyer.
+Fine. You win! Congratulations you outsmarted the magical fae supposedly more intelligent than you humanoids could
+ever hope to be. I snap my fingers and a door appears. It looks exactly like the door in the foyer.
 
-I offer out my hand. You look at me confused and I point out your pocket stuffed with miscellaneous things. You're beginning again aren't you? No need to have all this stuff weighing you down. Instead, have this. I conjure up a plain necklace and offer it to you.
+I offer out my hand. You look at me confused and I point out your pocket stuffed with miscellaneous things. You're
+beginning again aren't you? No need to have all this stuff weighing you down. Instead, have this. I conjure up a
+plain necklace and offer it to you.
 
 [CHOICES]
 - [ACCEPT] Accept the necklace.

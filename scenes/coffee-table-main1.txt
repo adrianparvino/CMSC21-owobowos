@@ -1,10 +1,21 @@
 COFFEE TABLE MAIN1
 
-Your free hand picks up the ringed sketchbook and your other hand shifts its grip in order to find a free page. It flips through the pages for quite a while. Whoever used it must have loved it a lot. Most of the sketches you flip by are of landscapes. Occasionally there is a figure or two, almost always humanoid but a goblin or two sneak their way in. 
+Your free hand picks up the ringed sketchbook and your other hand shifts its grip in order to find a free page. It
+flips through the pages for quite a while. Whoever used it must have loved it a lot. Most of the sketches you
+flip by are of landscapes. Occasionally there is a figure or two, almost always humanoid but a goblin or two sneak
+their way in.
 
-You flip through the sketchbook mostly mindlessly but a portrait of a beautiful human catches your eye. You linger on what you can clearly see is a loving portrait. The artist must have loved whoever this lady is as every smile line is carefully depicted, every lash painstakingly rendered, every line is overflowing with adoration. Your hand has somehow found its way on the paper, your fingers longingly caressing the portrait's smile. There is a pang in your heart whose origin is unknown to you. A pang that grows the more you linger. 
+You flip through the sketchbook mostly mindlessly but a portrait of a beautiful human catches your eye. You linger
+on what you can clearly see is a loving portrait. The artist must have loved whoever this lady is as every smile
+line is carefully depicted, every lash painstakingly rendered, every line is overflowing with adoration. Your hand
+has somehow found its way on the paper, your fingers longingly caressing the portrait's smile. There is a pang in
+your heart whose origin is unknown to you. A pang that grows the more you linger.
 
-You shake your head. You have almost forgotten your task. You continue flipping and thankfully, a few pages after the portrait, you land on a mostly empty page save for a drawing of a cluster of blue flowers. Like many things in this sketchbook, it is faintly familiar; scenes of everyday life that have been robbed of you for so long. The numbers next to it are even more so. You do not remember why but the numbers "4 29" stick to your head almost begging you to not forget. 
+You shake your head. You have almost forgotten your task. You continue flipping and thankfully, a few pages after
+the portrait, you land on a mostly empty page save for a drawing of a cluster of blue flowers. Like many things
+in this sketchbook, it is faintly familiar; scenes of everyday life that have been robbed of you for so long. The
+numbers next to it are even more so. You do not remember why but the numbers "4 29" stick to your head almost
+begging you to not forget.
 
 [CHOICES]
 - [CONTINUE] Continue.

@@ -1,6 +1,8 @@
 STAIR
 
-You easily climb the stairs, reaching the second floor in what feels like a blink. You explore the area but find that every time you get close to something, it's appearance changes or it flat out disappears. It is clear to you that the second floor is much more unstable than the floor below you and so you return.
+You easily climb the stairs, reaching the second floor in what feels like a blink. You explore the area but find
+that every time you get close to something, it's appearance changes or it flat out disappears. It is clear to you
+that the second floor is much more unstable than the floor below you and so you return.
 
 [CHOICES]
 - [RETURN] Return to the foyer.

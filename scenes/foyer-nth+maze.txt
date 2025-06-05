@@ -1,8 +1,12 @@
 FOYER NTH+MAZE
 
-You are back in the foyer. The chandelier is still on the ceiling, although it seems to occasionally forget what design it used to have, morphing into something new every time you take your eyes off it. The table and stairs are completely overrun by the foliage. The locked door has all but disappeared. Many areas of the room flicker in and out of view. Sometimes, the parts that return from whatever void they disappear to are entirely different to what left. 
+You are back in the foyer. The chandelier is still on the ceiling, although it seems to occasionally forget what
+design it used to have, morphing into something new every time you take your eyes off it. The table and stairs are
+completely overrun by the foliage. The locked door has all but disappeared. Many areas of the room flicker in and
+out of view. Sometimes, the parts that return from whatever void they disappear to are entirely different to what left.
 
-The twin doors to the outside world sing to you, each glass accent finally in harmony - their images in sync. You are nearly there, you can feel it in your bones. 
+The twin doors to the outside world sing to you, each glass accent finally in harmony - their images in sync. You
+are nearly there, you can feel it in your bones.
 
 What do you do?
 

@@ -1,6 +1,10 @@
 UNEASY END2
 
-You continue walking through the vaguely familiar forest. You've been here before, a long time ago. Memories of the time feel almost dreamlike, although you believe the culprit for this is the time you've spent in the house. You know civilization is just past these woods but you also know that you are bone deep tired. The burst of adrenaline that flooded your veins when you escaped has dried up. The journey will take quite some time, time you're not sure you can last without some rest.
+You continue walking through the vaguely familiar forest. You've been here before, a long time ago. Memories of the
+time feel almost dreamlike, although you believe the culprit for this is the time you've spent in the house. You
+know civilization is just past these woods but you also know that you are bone deep tired. The burst of adrenaline
+that flooded your veins when you escaped has dried up. The journey will take quite some time, time you're not sure
+you can last without some rest.
 
 [CHOICES]
 - [CONTINUE] Continue.

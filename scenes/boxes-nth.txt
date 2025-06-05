@@ -1,6 +1,8 @@
 BOXES NTH
 
-The boxes are still in the mess you left them in, open and haphazardly scattered. The first box still contains stacks of academic papers, the second box still has the tense correspondence, and the final box is still too water damaged to read.
+The boxes are still in the mess you left them in, open and haphazardly scattered. The first box still contains
+stacks of academic papers, the second box still has the tense correspondence, and the final box is still too water
+damaged to read.
 
 [CHOICES]
 - [RETURN] Return to the basement.

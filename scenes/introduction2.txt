@@ -1,8 +1,9 @@
 INTRODUCTION2
 
-You quickly get ready and find your way to your kitchen. You need fuel to get through this day. After all, this is the day you get out, right?
+You quickly get ready and find your way to your kitchen. You need fuel to get through this day. After all, this
+is the day you get out, right?
 
-Wait what? 
+Wait what?
 
 [CHOICES]
 - [CONTINUE] Continue.

@@ -1,6 +1,8 @@
 AUTOSKIP
 
-Your feet lead you through the maze with a certainty you never thought you could actually have. The journey is awfully familiar, the directions at the tip of your tongue. Luckily for you, your feet have seemingly memorized the rough stone of the maze. You go left, then right, and then straight - blitzing through the entire thing. 
+Your feet lead you through the maze with a certainty you never thought you could actually have. The journey is
+awfully familiar, the directions at the tip of your tongue. Luckily for you, your feet have seemingly memorized
+the rough stone of the maze. You go left, then right, and then straight - blitzing through the entire thing.
 
 [AUTO]
 - /MAZE END

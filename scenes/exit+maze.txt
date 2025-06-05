@@ -1,6 +1,7 @@
 EXIT+MAZE
 
-With trembling hands, you approach the twin doors. One hand now rests on a handle and the other holds the key. Do you unlock the door?
+With trembling hands, you approach the twin doors. One hand now rests on a handle and the other holds the key. Do
+you unlock the door?
 
 [CHOICES]
 - [YES] Yes

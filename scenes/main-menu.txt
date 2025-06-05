@@ -2,13 +2,13 @@ MAIN MENU
 
 Hiraeth
 
-#   # # ####   ###  ##### ##### #   # 
-#   # # #   # #   # #       #   #   # 
-##### # ####  ##### #####   #   ##### 
-#   # # #   # #   # #       #   #   # 
-#   # # #   # #   # #####   #   #   # 
+#   # # ####   ###  ##### ##### #   #
+#   # # #   # #   # #       #   #   #
+##### # ####  ##### #####   #   #####
+#   # # #   # #   # #       #   #   #
+#   # # #   # #   # #####   #   #   #
 
-n. deep longing for a person or thing which is absent or lost; 
+n. deep longing for a person or thing which is absent or lost;
 yearning; nostalgia; spec. homesickness.
 n. a game about being lost.
 

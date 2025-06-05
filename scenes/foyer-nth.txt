@@ -1,8 +1,14 @@
 FOYER NTH
 
-You have once again stepped into the foyer. The chandelier is still on the ceiling, although it seems to occasionally forget what design it used to have, morphing into something new every time you take your eyes off it. The table is still there though overrun by the plants flanking it. The bannisters of the stairs have become impossible to tell apart from all the foliage. Thankfully the steps have been spared. The twin doors to the outside world stand strong though the glass adorning it has gone dark, impossible to see through. The locked door is the only thing that remains entirely unchanged.
+You have once again stepped into the foyer. The chandelier is still on the ceiling, although it seems to occasionally
+forget what design it used to have, morphing into something new every time you take your eyes off it. The table
+is still there though overrun by the plants flanking it. The bannisters of the stairs have become impossible to
+tell apart from all the foliage. Thankfully the steps have been spared. The twin doors to the outside world stand
+strong though the glass adorning it has gone dark, impossible to see through. The locked door is the only thing
+that remains entirely unchanged.
 
-Many areas of the room flicker in and out of view. Sometimes, the parts that return from whatever void they disappear to are entirely different to what left.
+Many areas of the room flicker in and out of view. Sometimes, the parts that return from whatever void they
+disappear to are entirely different to what left.
 
 What do you do?
 

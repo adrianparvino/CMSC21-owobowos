@@ -1,6 +1,6 @@
 STAIR+MAZE
 
-You cannot make out what is step and what is plant so you forgo the attempt to climb what has become of the stairs. 
+You cannot make out what is step and what is plant so you forgo the attempt to climb what has become of the stairs.
 
 [CHOICES]
 - [RETURN] Return to the foyer.

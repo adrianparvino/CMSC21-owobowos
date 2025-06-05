@@ -1,6 +1,7 @@
 BOOK NTH
 
-The journal is still there exactly where you left it on the table top, open at the very page you stopped at. If only there was something you could use to fill out the indents the author accidentally left behind.
+The journal is still there exactly where you left it on the table top, open at the very page you stopped at. If
+only there was something you could use to fill out the indents the author accidentally left behind.
 
 [CHOICES]
 - [RETURN] Return to the foyer.

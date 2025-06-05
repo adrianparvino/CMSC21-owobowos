@@ -2,7 +2,10 @@ BASEMENT NTH
 
 You walk a few steps forward and...
 
-End back at where you started? What?! Damn the seven hells! You think it's another illusion but a kick to the nearest wall tells you it's solid all while hurting your feet. The dark entry to the maze seems to mock you and it takes everything in you not to scream. After several deep breaths, you steady yourself. As frustrating as it is, getting upset does not help you out of here. 
+End back at where you started? What?! Damn the seven hells! You think it's another illusion but a kick to the
+nearest wall tells you it's solid all while hurting your feet. The dark entry to the maze seems to mock you and it
+takes everything in you not to scream. After several deep breaths, you steady yourself. As frustrating as it is,
+getting upset does not help you out of here.
 
 [CHOICES]
 - [BOXES] Open the boxes.

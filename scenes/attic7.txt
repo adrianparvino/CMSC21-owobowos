@@ -1,10 +1,14 @@
 ATTIC7
 
-In your excitement, your fast pace causes one of your very tired legs to lag behind. It hooks onto the 1ip of the previous stair and sends you flying. You close your eyes, bracing for the rough impact, when suddenly you feel a hand catch your shoulder, stopping your fall. You open your eyes to a gentle elf smiling at you although a pinch in her eyes tells you she's upset about something. 
+In your excitement, your fast pace causes one of your very tired legs to lag behind. It hooks onto the 1ip of the
+previous stair and sends you flying. You close your eyes, bracing for the rough impact, when suddenly you feel a
+hand catch your shoulder, stopping your fall. You open your eyes to a gentle elf smiling at you although a pinch
+in her eyes tells you she's upset about something.
 
 "I should have known better. Done better. Be better," she says mournfully. "This was never the plan."
 
-You look at her confused as you pick yourself back up. She only offers another sad smile before disappearing. You don't dwell on it any longer and rush to the landing. Your hand wraps around the handle and opens it swiftly.
+You look at her confused as you pick yourself back up. She only offers another sad smile before disappearing. You
+don't dwell on it any longer and rush to the landing. Your hand wraps around the handle and opens it swiftly.
 
 [CHOICES]
 - [CONTINUE] Continue.

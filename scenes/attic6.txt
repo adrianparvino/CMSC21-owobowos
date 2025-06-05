@@ -1,6 +1,6 @@
 ATTIC6
 
-Your march does not end here and so your feet continue to carry you onwards. Your eyes barely have the time to adjust being back on the staircase when they catch a glimpse of the end. There, just a few steps ahead is a landing and a few steps beyond it is a door quite reminiscent of the very door you first entered this space with, oddly plain. It should fill you with dread thinking back to the way it would open into a similar door infinitely but it doesn’t. All the other doors that lead nowhere were simply reflections of the door in sight, unable to lead to the end. But here you are now, so very close. 
+Your march does not end here and so your feet continue to carry you onwards. Your eyes barely have the time to adjust being back on the staircase when they catch a glimpse of the end. There, just a few steps ahead is a landing and a few steps beyond it is a door quite reminiscent of the very door you first entered this space with, oddly plain. It should fill you with dread thinking back to the way it would open into a similar door infinitely but it doesn't. All the other doors that lead nowhere were simply reflections of the door in sight, unable to lead to the end. But here you are now, so very close. 
 
 [CHOICES]
 - [CONTINUE] Continue.

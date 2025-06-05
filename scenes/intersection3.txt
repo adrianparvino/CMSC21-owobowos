@@ -6,9 +6,9 @@ No, the world did not rotate, your throbbing toe seems to tell you. Your cheek a
 
 After a few solid tugs, your hand now holds something covered in paper. You unwrap it, noting that the paper is torn and has something written on it. 
 
-“- lead to nowhere
+"- lead to nowhere
 - ad to the end. 
-- times the charm”
+- times the charm"
 
 [CHOICES]
 - [CONTINUE] Continue.

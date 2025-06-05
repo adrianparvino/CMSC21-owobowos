@@ -1,6 +1,6 @@
 MAZE END
 
-What greets you at the end of the maze is a room that mirrors its entrance. It scares you for a brief moment that you just went in circles but you notice the lack of boxes and the presence of a work table and quickly calm down. You approach the work table with its messy surface and a glint of metal catches your eye. It’s mostly buried under a lot of paper but it takes little effort to unearth it. It's an ornate bronze key, a bronze sheen you’ve seen before - on a particular set of doors. You grab the key.
+What greets you at the end of the maze is a room that mirrors its entrance. It scares you for a brief moment that you just went in circles but you notice the lack of boxes and the presence of a work table and quickly calm down. You approach the work table with its messy surface and a glint of metal catches your eye. It's mostly buried under a lot of paper but it takes little effort to unearth it. It's an ornate bronze key, a bronze sheen you've seen before - on a particular set of doors. You grab the key.
 
 [AUTO]
 - /FOYER

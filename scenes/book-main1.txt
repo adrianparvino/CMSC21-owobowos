@@ -1,6 +1,6 @@
 BOOK MAIN1
 
-Ignoring the urge to take the easy way out, you continue reading. It's a slog. The margin notes seem to dislike the author and that intrigues you. However, the intrigue doesn’t change the want to do something you actually enjoy. The urge comes back full force. Do you listen to it?
+Ignoring the urge to take the easy way out, you continue reading. It's a slog. The margin notes seem to dislike the author and that intrigues you. However, the intrigue doesn't change the want to do something you actually enjoy. The urge comes back full force. Do you listen to it?
 
 [CHOICES]
 - [YES] Yes

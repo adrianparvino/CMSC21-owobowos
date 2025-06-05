@@ -1,6 +1,6 @@
 LOCKED+MAZE
 
-The door is a whisper of itself. Incorporeal. Even if there was a way in, you couldn’t take it even if you tried.
+The door is a whisper of itself. Incorporeal. Even if there was a way in, you couldn't take it even if you tried.
 
 [CHOICES]
 - [RETURN] Return to the foyer.

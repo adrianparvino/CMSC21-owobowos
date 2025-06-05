@@ -4,7 +4,7 @@ You are no longer in the foyer. That is one thing for sure. As you look around, 
 
 There is a note beneath your feet and as you crouch to pick it up, the whole room flickers. For the briefest of moments, the room you are in transforms into what appears to be a dilapidated basement. Curiously, the boxes behind you do not change. In the space of a breath, the room changes once more - back into the same cramped room. All this happens before you could even rise up and read the note that is now in your hand. 
 
-“The only way out is through. Trust your senses” The note is a handwritten one. It looks like it was written by the same person who wrote those margin notes. You shrug. Guess it’s been decided. Although, there might be some things worth exploring before you get it over with?
+"The only way out is through. Trust your senses" The note is a handwritten one. It looks like it was written by the same person who wrote those margin notes. You shrug. Guess it's been decided. Although, there might be some things worth exploring before you get it over with?
 
 [CHOICES]
 - [BOXES] Examine the boxes behind you

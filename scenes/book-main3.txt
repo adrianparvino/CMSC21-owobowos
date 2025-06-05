@@ -1,12 +1,12 @@
 BOOK MAIN3
 
-“Annoyingly”, the author writes, “her publicly available work ends there.” The journal entries span years as they did the hard work to decipher the wisdomseeker’s findings, the author going so far as to occupy the old wisdomseeker’s long abandoned home. 
+"Annoyingly", the author writes, "her publicly available work ends there." The journal entries span years as they did the hard work to decipher the wisdomseeker's findings, the author going so far as to occupy the old wisdomseeker's long abandoned home. 
 
-“How dare she keep this hidden from us,” the journal opined, seething.
+"How dare she keep this hidden from us," the journal opined, seething.
 
-“If only I had her keycard.” It whined.
+"If only I had her keycard." It whined.
 
-More entries pass without much issue, that is, until you land on an entry that abandons the guidelines and is written largely - likely due to the excitement the author had felt. In all capital letters, they wrote “I’VE FOUND IT.”
+More entries pass without much issue, that is, until you land on an entry that abandons the guidelines and is written largely - likely due to the excitement the author had felt. In all capital letters, they wrote "I'VE FOUND IT."
 
 [CHOICES]
 - [CONTINUE] Continue.

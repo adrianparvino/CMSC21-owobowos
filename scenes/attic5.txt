@@ -1,6 +1,6 @@
 ATTIC5
 
-You reach to touch them but just like before you go through them. Worse, they begin to disintegrate and soon nothing remains. Was that a threat from the house? A message taunting you of your future? You shake your head. You’re close, you know you are. You think back to the maze. “The only way out is through. Trust your instincts.”
+You reach to touch them but just like before you go through them. Worse, they begin to disintegrate and soon nothing remains. Was that a threat from the house? A message taunting you of your future? You shake your head. You're close, you know you are. You think back to the maze. "The only way out is through. Trust your instincts."
 
 [CHOICES]
 - [CONTINUE] Continue.

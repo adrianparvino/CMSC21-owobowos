@@ -1,8 +1,8 @@
 UNEASY END
 
-The feeling of the sun on your face brings a wave of happiness you aren’t quite equipped to feel. The day you get out of the house after only the Maker knows how long is a wonderful one. The cool spring breeze, the sweet smell of flowers in the air, the gentle kiss of the sun, it’s all perfect. Your first steps are small but soon become numerous as you break into a sprint. After being confined by four walls, the openness of the outside world feels a little dangerous. You throw caution to the wind anyway, too elated to care.
+The feeling of the sun on your face brings a wave of happiness you aren't quite equipped to feel. The day you get out of the house after only the Maker knows how long is a wonderful one. The cool spring breeze, the sweet smell of flowers in the air, the gentle kiss of the sun, it's all perfect. Your first steps are small but soon become numerous as you break into a sprint. After being confined by four walls, the openness of the outside world feels a little dangerous. You throw caution to the wind anyway, too elated to care.
 
-The blades of grass tickle your ankles as you run across the field into the forest and past the trees. You run and celebrate the burn you’re beginning to feel in your lungs. You are wonderfully alive. It’s over. You are free.
+The blades of grass tickle your ankles as you run across the field into the forest and past the trees. You run and celebrate the burn you're beginning to feel in your lungs. You are wonderfully alive. It's over. You are free.
 
 [CHOICES]
 - [CONTINUE] Continue.

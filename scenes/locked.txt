@@ -1,6 +1,6 @@
 LOCKED
 
-You only realize it when it is right in front of you but the door is shaking ever so slightly. The comically large lock bars you from exploring further but something catches your eye. On the floor, there is something wrapped in paper. You pick it up to unwrap it. There is a bloodied key and the unfurled paper reads “DO NOT OPEN”. Do you open the door?
+You only realize it when it is right in front of you but the door is shaking ever so slightly. The comically large lock bars you from exploring further but something catches your eye. On the floor, there is something wrapped in paper. You pick it up to unwrap it. There is a bloodied key and the unfurled paper reads "DO NOT OPEN". Do you open the door?
 
 [CHOICES]
 - [YES] Yes

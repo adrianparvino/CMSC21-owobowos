@@ -129,14 +129,13 @@ Scene::run(Game &game) {
         std::getline(std::cin, input);
         std::cout << std::endl;
 
-        if (input == "quit") { exit(0); }
-        if (input == "help") {
-            show_choices();
-            continue;
-        }
-
         auto action = actions.find(input);
         if (action != actions.end()) { return {&action->second, &posts}; }
+        if (input == "QUIT") { exit(0); }
+        if (input == "HELP") {
+            show_help();
+            continue;
+        }
         if (defaultAction.has_value()) {
             return {&defaultAction.value(), &posts};
         }
@@ -206,6 +205,12 @@ void Scene::show_description(Game &game) {
     }
 
     std::cout << description_view << std::endl;
+}
+
+void Scene::show_help() {
+    std::cout << "- [HELP] Show this help." << std::endl;
+    std::cout << "- [QUIT] Quit this game." << std::endl;
+    show_choices();
 }
 
 void Scene::show_choices() {
@@ -362,7 +367,7 @@ int main() {
         );
     }
 
-    game.run("REVEAL");
+    game.run("MAIN MENU");
 
     return 0;
 }

@@ -66,6 +66,7 @@ class Scene {
     std::string parse_auto(std::ifstream &file);
 
     void show_description(Game &game);
+    void show_help();
     void show_choices();
 };
 

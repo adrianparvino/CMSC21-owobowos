@@ -27,3 +27,7 @@ Click build and run on the top right corner.
 ```bash
 ./main
 ```
+
+## Spoilers!
+
+For the door scene, just remember you have a keycard and April 29!

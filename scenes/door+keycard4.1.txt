@@ -1,0 +1,11 @@
+DOOR+KEYCARD4.1
+
+The door refuses to budge. Do you try again?
+
+[CHOICES]
+- [CODE] Put in another code.
+- [RETURN] Return to the living room.
+
+[ACTIONS]
+- [CODE] /DOOR+KEYCARD4
+- [RETURN] /LIVING ROOM

@@ -1,4 +1,6 @@
-DOOR+KEYCARD3
+DOOR+KEYCARD3.1
+
+The door beeps, denying you entry.
 
 You open the door to a distinctly different door. It is a metallic door rusted green and overgrown with moss. There
 is an incredibly old sensor blinking where the lock would usually be.
@@ -14,4 +16,4 @@ What do you do?
 - [USE KEYCARD] /DOOR+KEYCARD4
 - [USE ID] /DOOR+KEYCARD4
 - [USE CARD] /DOOR+KEYCARD4
-- /DOOR+KEYCARD3.1
+- /DOOR+KEYCARD3.2

@@ -1,7 +1,7 @@
 FRAMES
 
 A portrait of a pretty elf woman catches your eye. Green eyes, brown hair, and a gentle smile. She appears to be
-in archaic robes with a brilliant ball of magic dancing on her outstretched hand. The placard says "Lady Felicia -
+in archaic robes with a brilliant ball of magic dancing on her outstretched hand. The placard says "Lady #%!3\* -
 Wisdomseeker". The big fleur pinned to her robes point to her being the owner of this charming house.
 
 [CHOICES]

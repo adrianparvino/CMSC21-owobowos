@@ -5,11 +5,15 @@ find despair but instead you look contemplative.
 
 Your eyes look beyond this room and land on the corner of the screen.
 
+[PAUSE/10s]
+
 No.
 
 No, you wouldn't dare right?
 
 Benefactor cut that out! Do Not Think about-
+
+[PAUSE/5s]
 
  ___    _____   ______  ________
 /   \  |__ __| /   _  \ |    _  \
@@ -22,4 +26,4 @@ Benefactor cut that out! Do Not Think about-
 [PAUSE/10s]
 
 [AUTO]
-- /CHOICES
+- /CHOICE

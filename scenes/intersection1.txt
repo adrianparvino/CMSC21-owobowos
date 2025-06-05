@@ -12,5 +12,5 @@ Which direction will you choose?
 - [LEFT] Go left.
 
 [ACTIONS]
-- [STRAIGHT] /BASEMENT
+- [STRAIGHT] /INTERSECTION1 STRAIGHT
 - [LEFT] /INTERSECTION2

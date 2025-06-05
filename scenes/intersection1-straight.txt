@@ -1,0 +1,10 @@
+INTERSECTION1 STRAIGHT
+
+You conquer the bone deep fear that roosted into your skeleton and take a step into the angry maw. You only last for a few moments before something too fast to see launches itself at you. You wish you could say it was over just like that but unfortunately, a mad hungry predator is not a particularly intelligent or merciful one. 
+
+You are terrifyingly aware of the way the creature chews on you. The force of each bite shocks you into awareness if you ever find yourself close to welcoming oblivion. Your death is agonizingly slow and painful. When the end finally comes, you cannot even rejoice.
+
+[PAUSE/5s]
+
+[AUTO]
+- /BASEMENT

@@ -13,7 +13,6 @@ yearning; nostalgia; spec. homesickness.
 n. a game about being lost.
 
 Type START to begin.
-Type HELP for help.
 Type QUIT to quit.
 
 [ACTIONS]

@@ -23,6 +23,3 @@ What do you do?
 - [EXIT] /EXIT
 - [LOCKED] /LOCKED
 - [ENTRYWAY] /LIVING ROOM
-
-[POST]
-- /FOYER/FOYER NTH

@@ -28,6 +28,7 @@ class PersistentCounter {
 class AbstractSceneResult {
   public:
     virtual void run(Game &game) const = 0;
+    virtual ~AbstractSceneResult() = default;
 };
 
 class SceneResult : public AbstractSceneResult {

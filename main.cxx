@@ -299,7 +299,8 @@ std::string Scene::parse_actions(std::ifstream &file) {
         auto end = line.find(']');
 
         SceneResult result;
-        if (auto delim = line.find("/", start || 0);
+        if (auto delim =
+                line.find("/", start == std::string::npos ? 0 : start + 1);
             delim != std::string::npos) {
             result.transition = line.substr(delim + 1);
         }

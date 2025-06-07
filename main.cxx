@@ -90,6 +90,7 @@ Scene::Scene(std::ifstream &&file) {
     while (std::getline(file, line) && line.empty()) {}
     description += line;
     while (std::getline(file, line)) {
+        if (line.empty()) continue;
         auto sv = std::string_view(line);
         if (sv.front() == '[' && sv != "[COUNTER]" && sv.find("[PAUSE/") != 0) {
             break;
@@ -223,6 +224,7 @@ std::string Scene::parse_choices(std::ifstream &file) {
     std::string line;
 
     while (std::getline(file, line)) {
+        if (line.empty()) continue;
         if (line.front() == '[') { break; }
         if (line.front() != '-') { continue; }
 
@@ -238,6 +240,7 @@ std::string Scene::parse_post(std::ifstream &file) {
     std::string line;
 
     while (std::getline(file, line)) {
+        if (line.empty()) continue;
         if (line.front() == '[') { break; }
         if (line.front() != '-') { continue; }
 
@@ -274,6 +277,7 @@ std::string Scene::parse_conditional_descriptions(
     std::getline(file, line);
     entry += line;
     while (std::getline(file, line)) {
+        if (line.empty()) continue;
         if (line.front() == '[') { break; }
 
         entry += '\n';
@@ -287,6 +291,7 @@ std::string Scene::parse_actions(std::ifstream &file) {
     std::string line;
 
     while (std::getline(file, line)) {
+        if (line.empty()) continue;
         if (line.front() == '[') { break; }
         if (line.front() != '-') { continue; }
 
@@ -314,6 +319,7 @@ std::string Scene::parse_auto(std::ifstream &file) {
     std::string line;
 
     while (std::getline(file, line)) {
+        if (line.empty()) continue;
         if (line.front() == '[') { break; }
         if (line.front() != '-') { continue; }
 
@@ -361,9 +367,9 @@ int main() {
     static PersistentCounter counter("played.txt");
 
     Game game(counter);
-    for (auto const &file : std::filesystem::directory_iterator("scenes")) {
+    for (auto const &dirent : std::filesystem::directory_iterator("scenes")) {
         game.registerScene(
-            std::shared_ptr<Scene>(new Scene(std::ifstream(file.path())))
+            std::shared_ptr<Scene>(new Scene(std::ifstream(dirent.path())))
         );
     }
 
